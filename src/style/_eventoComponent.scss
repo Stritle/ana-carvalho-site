@@ -1,0 +1,144 @@
+.eventoContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  .eventoContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-bottom: 0px solid white;
+    border-top: 1px solid rgb(109, 16, 16);
+    transition: 0.3s;
+    &:hover {
+      border-bottom: 1px solid white;
+      border-top: 1px solid white;
+    }
+    & > div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      color: white;
+
+      h2 {
+        font-size: 2.5rem;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        small {
+          font-size: 0.7rem;
+          margin: 0 10px;
+        }
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+      h6 {
+        margin-left: 5px;
+        margin-top: 0px;
+        font-size: 1.2rem;
+        font-weight: 100;
+      }
+    }
+
+    .eventBtn {
+      a {
+        padding: 0.5rem 2rem;
+        background-color: rgb(253, 253, 248);
+        border-radius: 15px 0 15px 0;
+        color: rgb(141, 27, 27);
+        font-weight: 800;
+        transition: 0.3s;
+        text-transform: uppercase;
+        margin-top: 0px;
+        cursor: pointer;
+        &:hover {
+          border: 1px solid white;
+          border-radius: 0 15px 0 15px;
+          background-color: transparent;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .eventoContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .eventoContent {
+      margin: 10px 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      border-bottom: 0px solid white;
+      border-top: 1px solid rgb(109, 16, 16);
+      transition: 0.3s;
+      &:hover {
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+      }
+      & > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+        h2 {
+          font-size: 2.5rem;
+        }
+        div {
+          display: flex;
+          flex-direction: column;
+          small {
+            font-size: 0.7rem;
+            margin: 0 10px;
+          }
+        }
+        h1 {
+          font-size: 1.25rem;
+        }
+        h6 {
+          margin-left: 0px;
+          margin-top: 4px;
+          font-size: 0.8rem;
+          font-weight: 100;
+        }
+      }
+
+      .eventBtn {
+        a {
+          margin-top: 15px;
+          padding: 0.2rem 5rem;
+          background-color: rgb(253, 253, 248);
+          border-radius: 15px 0 15px 0;
+          color: rgb(141, 27, 27);
+          font-weight: 800;
+          transition: 0.3s;
+          text-transform: uppercase;
+          cursor: pointer;
+          &:hover {
+            border: 1px solid white;
+            border-radius: 0 15px 0 15px;
+            background-color: transparent;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

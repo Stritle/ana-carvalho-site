@@ -1,0 +1,80 @@
+.contacto {
+  width: 100%;
+  min-height: 60vh;
+  background-image: url("./images/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-color: rgb(243, 243, 243);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 2.2rem;
+    color: rgb(141, 27, 27);
+    margin-top: 2vh;
+  }
+  .contactoContainer {
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(141, 27, 27);
+    a {
+      width: 23%;
+      margin: 4rem 0.5rem;
+      &:nth-child(2) {
+        margin-top: 4rem;
+      }
+      &:nth-child(1) {
+        margin-top: 4rem;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .contacto {
+    width: 100%;
+    min-height: 65vh;
+    background-image: url("./images/paper.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 2.6rem;
+      color: rgb(141, 27, 27);
+      margin-top: 0vh;
+    }
+    .contactoContainer {
+      width: 80%;
+      height: 70%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      border-top: 1px solid rgb(141, 27, 27);
+      a {
+        width: 42%;
+        margin: 0.5rem 0.5rem;
+        &:nth-child(2) {
+          margin-top: 60px;
+        }
+        &:nth-child(1) {
+          margin-top: 60px;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

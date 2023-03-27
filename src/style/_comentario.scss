@@ -1,0 +1,64 @@
+.comentarioContent {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 1rem;
+  text-align: center;
+  color: white;
+
+  .aspas {
+    height: 5rem;
+    width: 5rem;
+    background-image: url("./images/aspas.webp");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+  }
+  .underLine {
+    margin: 25px 0;
+    border-bottom: 1px solid white;
+    width: 50%;
+  }
+  h5 {
+    font-size: 1.1rem;
+    b {
+      font-weight: 700;
+    }
+    p {
+      font-weight: 100;
+      margin-top: -0.3rem;
+    }
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .comentarioContent {
+    width: 100%;
+    margin: 0 0rem;
+    margin-top: 40px;
+    .aspas {
+      margin-top: 0vh;
+    }
+    .underLine {
+      margin: 15px 0;
+    }
+    h5 {
+      font-size: 1.3rem;
+      b {
+        font-weight: 700;
+      }
+      p {
+        font-weight: 100;
+      }
+    }
+    &:last-child {
+      margin-bottom: 20px;
+    }
+  }
+}

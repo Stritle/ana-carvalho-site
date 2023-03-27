@@ -1,0 +1,81 @@
+.sobre {
+  width: 100%;
+  min-height: 70vh;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h1 {
+    font-size: 2.2rem;
+    margin-top: 0px;
+    color: rgb(141, 27, 27);
+  }
+  .biografiaContainer {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(141, 27, 27);
+    display: flex;
+    flex-direction: row;
+    img {
+      margin-top: 10vh;
+      height: 50vh;
+    }
+    .biografiaContent {
+      margin-top: 15vh;
+      height: 90%;
+      display: flex;
+      align-items: center;
+
+      p {
+        margin-left: 2rem;
+        margin-top: 0vh;
+        margin-bottom: 0px;
+        width: 90%;
+        font-size: 1.1rem;
+        color: black;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .sobre {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 30px;
+    }
+    .biografiaContainer {
+      width: 80%;
+      flex-direction: column;
+
+      img {
+        margin-top: 3vh;
+        height: 80%;
+      }
+      .biografiaContent {
+        p {
+          margin-left: 0rem;
+          margin-top: -10vh;
+          margin-bottom: 50px;
+          width: 100%;
+          font-size: 1.2rem;
+          text-align: justify;
+        }
+      }
+    }
+  }
+}

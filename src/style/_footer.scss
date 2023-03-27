@@ -1,0 +1,24 @@
+.footer {
+  width: 100%;
+  height: 6vh;
+  background-color: rgb(109, 16, 16);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  p {
+    font-size: 0.7rem;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    justify-content: center;
+
+    p {
+      font-size: 0.6rem;
+      margin-right: 0px;
+    }
+  }
+}

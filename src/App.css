@@ -1,0 +1,885 @@
+.header {
+  width: 100vw;
+  height: 15vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  background-color: rgba(243, 243, 243, 0.85);
+  background-image: url("./images/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header .logo {
+  width: 40%;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+}
+.header .logo h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+.header .navbar {
+  width: 60%;
+  align-items: center;
+  display: flex;
+}
+.header .navbar ul {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+.header .navbar ul li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+.header .navbar ul li a {
+  color: black;
+  font-weight: 800;
+  transition: 0.3s;
+}
+.header .navbar ul li a:hover {
+  color: rgb(180, 23, 23);
+}
+
+@media (max-width: 600px) {
+  .header {
+    visibility: hidden;
+  }
+}
+.main {
+  margin-top: 15vh;
+  width: 100%;
+  height: 85vh;
+  background-image: url("./images/mainImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 600px) {
+  .main {
+    margin-top: 0vh;
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/mainMobileImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.livros {
+  width: 100%;
+  padding-top: 40px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.livros > h1 {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: 2.2rem;
+  text-align: center;
+  color: rgb(141, 27, 27);
+}
+.livros .livros-container {
+  width: 75vw;
+  min-height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(141, 27, 27);
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .livros {
+    padding-top: 0px;
+  }
+  .livros > h1 {
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+  }
+  .livros .livros-container {
+    justify-content: center;
+  }
+}
+.naMidia {
+  width: 100%;
+  padding-top: 10px;
+  min-height: 90vh;
+  background-color: rgb(141, 27, 27);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.naMidia > h1 {
+  margin-top: -80px;
+  font-size: 2.2rem;
+  color: white;
+}
+.naMidia .naMidiaContainer {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(255, 255, 255);
+  flex-direction: row;
+}
+
+@media (max-width: 600px) {
+  .naMidia {
+    padding-top: 0px;
+    min-height: 100vh;
+  }
+  .naMidia > h1 {
+    font-size: 2.6rem;
+    margin-top: 20px;
+  }
+  .naMidia .naMidiaContainer {
+    width: 60%;
+    min-height: 70%;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.sobre {
+  width: 100%;
+  min-height: 70vh;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sobre h1 {
+  font-size: 2.2rem;
+  margin-top: 0px;
+  color: rgb(141, 27, 27);
+}
+.sobre .biografiaContainer {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(141, 27, 27);
+  display: flex;
+  flex-direction: row;
+}
+.sobre .biografiaContainer img {
+  margin-top: 10vh;
+  height: 50vh;
+}
+.sobre .biografiaContainer .biografiaContent {
+  margin-top: 15vh;
+  height: 90%;
+  display: flex;
+  align-items: center;
+}
+.sobre .biografiaContainer .biografiaContent p {
+  margin-left: 2rem;
+  margin-top: 0vh;
+  margin-bottom: 0px;
+  width: 90%;
+  font-size: 1.1rem;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .sobre {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .sobre h1 {
+    font-size: 2.5rem;
+    margin-top: 30px;
+  }
+  .sobre .biografiaContainer {
+    width: 80%;
+    flex-direction: column;
+  }
+  .sobre .biografiaContainer img {
+    margin-top: 3vh;
+    height: 80%;
+  }
+  .sobre .biografiaContainer .biografiaContent p {
+    margin-left: 0rem;
+    margin-top: -10vh;
+    margin-bottom: 50px;
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+}
+.eventos {
+  width: 100%;
+  min-height: 80vh;
+  padding-top: 60px;
+  background-color: rgb(141, 27, 27);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.eventos > h1 {
+  margin-top: 0px;
+  font-size: 2.2rem;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin-inline: 25vw;
+}
+.eventos > div {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.eventos > div .eventosContainer {
+  width: 60%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .eventos {
+    padding-top: 0px;
+    min-height: 70vh;
+  }
+  .eventos > h1 {
+    margin-top: 30px;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-inline: 25vw;
+  }
+  .eventos > div {
+    margin-bottom: 100px;
+  }
+  .eventos > div .eventosContainer {
+    width: 90%;
+  }
+}
+.contacto {
+  width: 100%;
+  min-height: 60vh;
+  background-image: url("./images/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacto h1 {
+  font-size: 2.2rem;
+  color: rgb(141, 27, 27);
+  margin-top: 2vh;
+}
+.contacto .contactoContainer {
+  width: 40%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(141, 27, 27);
+}
+.contacto .contactoContainer a {
+  width: 23%;
+  margin: 4rem 0.5rem;
+}
+.contacto .contactoContainer a:nth-child(2) {
+  margin-top: 4rem;
+}
+.contacto .contactoContainer a:nth-child(1) {
+  margin-top: 4rem;
+}
+.contacto .contactoContainer a img {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .contacto {
+    width: 100%;
+    min-height: 65vh;
+    background-image: url("./images/paper.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contacto h1 {
+    font-size: 2.6rem;
+    color: rgb(141, 27, 27);
+    margin-top: 0vh;
+  }
+  .contacto .contactoContainer {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid rgb(141, 27, 27);
+  }
+  .contacto .contactoContainer a {
+    width: 42%;
+    margin: 0.5rem 0.5rem;
+  }
+  .contacto .contactoContainer a:nth-child(2) {
+    margin-top: 60px;
+  }
+  .contacto .contactoContainer a:nth-child(1) {
+    margin-top: 60px;
+  }
+  .contacto .contactoContainer a img {
+    width: 100%;
+  }
+}
+.livroComponent {
+  width: 250px;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.livroComponent img {
+  margin-top: 3vh;
+  height: 65%;
+  width: 100%;
+  border: 1px solid rgb(173, 173, 173);
+}
+.livroComponent h1 {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  color: rgb(19, 19, 19);
+  text-align: center;
+}
+.livroComponent a {
+  margin-top: 20px;
+  background-color: rgb(141, 27, 27);
+  border-radius: 15px 0 15px 0;
+  padding: 0.3rem 4rem;
+  color: aliceblue;
+  transition: 0.7s;
+}
+.livroComponent a:hover {
+  background-color: transparent;
+  border-radius: 0 15px 0 15px;
+  padding: 0.3rem 4rem;
+  color: rgb(141, 27, 27);
+  border: 1px solid rgb(141, 27, 27);
+}
+
+@media (max-width: 600px) {
+  .livroComponent {
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 30px;
+  }
+  .livroComponent img {
+    height: 80%;
+  }
+  .livroComponent h1 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+}
+.eventos {
+  width: 100%;
+  min-height: 80vh;
+  padding-top: 60px;
+  background-color: rgb(141, 27, 27);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.eventos > h1 {
+  margin-top: 0px;
+  font-size: 2.2rem;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin-inline: 25vw;
+}
+.eventos > div {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.eventos > div .eventosContainer {
+  width: 60%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .eventos {
+    padding-top: 0px;
+    min-height: 70vh;
+  }
+  .eventos > h1 {
+    margin-top: 30px;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-inline: 25vw;
+  }
+  .eventos > div {
+    margin-bottom: 100px;
+  }
+  .eventos > div .eventosContainer {
+    width: 90%;
+  }
+}
+.contacto {
+  width: 100%;
+  min-height: 60vh;
+  background-image: url("./images/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacto h1 {
+  font-size: 2.2rem;
+  color: rgb(141, 27, 27);
+  margin-top: 2vh;
+}
+.contacto .contactoContainer {
+  width: 40%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(141, 27, 27);
+}
+.contacto .contactoContainer a {
+  width: 23%;
+  margin: 4rem 0.5rem;
+}
+.contacto .contactoContainer a:nth-child(2) {
+  margin-top: 4rem;
+}
+.contacto .contactoContainer a:nth-child(1) {
+  margin-top: 4rem;
+}
+.contacto .contactoContainer a img {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .contacto {
+    width: 100%;
+    min-height: 65vh;
+    background-image: url("./images/paper.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contacto h1 {
+    font-size: 2.6rem;
+    color: rgb(141, 27, 27);
+    margin-top: 0vh;
+  }
+  .contacto .contactoContainer {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid rgb(141, 27, 27);
+  }
+  .contacto .contactoContainer a {
+    width: 42%;
+    margin: 0.5rem 0.5rem;
+  }
+  .contacto .contactoContainer a:nth-child(2) {
+    margin-top: 60px;
+  }
+  .contacto .contactoContainer a:nth-child(1) {
+    margin-top: 60px;
+  }
+  .contacto .contactoContainer a img {
+    width: 100%;
+  }
+}
+.comentarioContent {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 1rem;
+  text-align: center;
+  color: white;
+}
+.comentarioContent .aspas {
+  height: 5rem;
+  width: 5rem;
+  background-image: url("./images/aspas.webp");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 5vh;
+}
+.comentarioContent .underLine {
+  margin: 25px 0;
+  border-bottom: 1px solid white;
+  width: 50%;
+}
+.comentarioContent h5 {
+  font-size: 1.1rem;
+}
+.comentarioContent h5 b {
+  font-weight: 700;
+}
+.comentarioContent h5 p {
+  font-weight: 100;
+  margin-top: -0.3rem;
+}
+.comentarioContent h5:last-child {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 600px) {
+  .comentarioContent {
+    width: 100%;
+    margin: 0 0rem;
+    margin-top: 40px;
+  }
+  .comentarioContent .aspas {
+    margin-top: 0vh;
+  }
+  .comentarioContent .underLine {
+    margin: 15px 0;
+  }
+  .comentarioContent h5 {
+    font-size: 1.3rem;
+  }
+  .comentarioContent h5 b {
+    font-weight: 700;
+  }
+  .comentarioContent h5 p {
+    font-weight: 100;
+  }
+  .comentarioContent:last-child {
+    margin-bottom: 20px;
+  }
+}
+.eventoContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.eventoContainer .eventoContent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-bottom: 0px solid white;
+  border-top: 1px solid rgb(109, 16, 16);
+  transition: 0.3s;
+}
+.eventoContainer .eventoContent:hover {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+.eventoContainer .eventoContent > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.eventoContainer .eventoContent > div h2 {
+  font-size: 2.5rem;
+}
+.eventoContainer .eventoContent > div div {
+  display: flex;
+  flex-direction: column;
+}
+.eventoContainer .eventoContent > div div small {
+  font-size: 0.7rem;
+  margin: 0 10px;
+}
+.eventoContainer .eventoContent > div h1 {
+  font-size: 1.6rem;
+}
+.eventoContainer .eventoContent > div h6 {
+  margin-left: 5px;
+  margin-top: 0px;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.eventoContainer .eventoContent .eventBtn a {
+  padding: 0.5rem 2rem;
+  background-color: rgb(253, 253, 248);
+  border-radius: 15px 0 15px 0;
+  color: rgb(141, 27, 27);
+  font-weight: 800;
+  transition: 0.3s;
+  text-transform: uppercase;
+  margin-top: 0px;
+  cursor: pointer;
+}
+.eventoContainer .eventoContent .eventBtn a:hover {
+  border: 1px solid white;
+  border-radius: 0 15px 0 15px;
+  background-color: transparent;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .eventoContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .eventoContainer .eventoContent {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-bottom: 0px solid white;
+    border-top: 1px solid rgb(109, 16, 16);
+    transition: 0.3s;
+  }
+  .eventoContainer .eventoContent:hover {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+  }
+  .eventoContainer .eventoContent > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .eventoContainer .eventoContent > div h2 {
+    font-size: 2.5rem;
+  }
+  .eventoContainer .eventoContent > div div {
+    display: flex;
+    flex-direction: column;
+  }
+  .eventoContainer .eventoContent > div div small {
+    font-size: 0.7rem;
+    margin: 0 10px;
+  }
+  .eventoContainer .eventoContent > div h1 {
+    font-size: 1.25rem;
+  }
+  .eventoContainer .eventoContent > div h6 {
+    margin-left: 0px;
+    margin-top: 4px;
+    font-size: 0.8rem;
+    font-weight: 100;
+  }
+  .eventoContainer .eventoContent .eventBtn a {
+    margin-top: 15px;
+    padding: 0.2rem 5rem;
+    background-color: rgb(253, 253, 248);
+    border-radius: 15px 0 15px 0;
+    color: rgb(141, 27, 27);
+    font-weight: 800;
+    transition: 0.3s;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .eventoContainer .eventoContent .eventBtn a:hover {
+    border: 1px solid white;
+    border-radius: 0 15px 0 15px;
+    background-color: transparent;
+    color: white;
+  }
+}
+.footer {
+  width: 100%;
+  height: 6vh;
+  background-color: rgb(109, 16, 16);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+.footer p {
+  font-size: 0.7rem;
+  margin-right: 50px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    justify-content: center;
+  }
+  .footer p {
+    font-size: 0.6rem;
+    margin-right: 0px;
+  }
+}
+.readMore div {
+  height: 3rem;
+  width: 10px;
+}
+.readMore button {
+  background-color: rgb(253, 253, 248);
+  border-radius: 15px 0 15px 0;
+  color: rgb(141, 27, 27);
+  font-size: 0.6rem;
+  font-weight: 800;
+  border: 1px solid white;
+  border-radius: 15px 0 15px 0;
+  transition: 0.3s;
+}
+.readMore button:hover {
+  border: 1px solid white;
+  border-radius: 0 15px 0 15px;
+  background-color: transparent;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .readMore div {
+    height: 0rem;
+    width: 0px;
+  }
+}
+.evetosInfoPage {
+  background-color: rgb(141, 27, 27);
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.evetosInfoPage h1 {
+  margin-top: 3vh;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.evetosInfoPage .imgContainer {
+  margin-top: 3vh;
+  width: 80vw;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.evetosInfoPage .imgContainer .eventFotos {
+  width: 250px;
+  height: 270px;
+  margin: 5px;
+  background-color: black;
+  background-position: center;
+}
+.evetosInfoPage a {
+  padding: 0.2rem 3rem;
+  background-color: rgb(253, 253, 248);
+  border-radius: 15px 0 15px 0;
+  color: rgb(141, 27, 27);
+  font-weight: 800;
+  transition: 0.3s;
+  text-transform: uppercase;
+  margin-top: 2vh;
+  margin-bottom: 0vh;
+  cursor: pointer;
+}
+.evetosInfoPage a:hover {
+  border: 1px solid white;
+  border-radius: 0 15px 0 15px;
+  background-color: transparent;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .evetosInfoPage {
+    background-color: rgb(141, 27, 27);
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  .evetosInfoPage h1 {
+    margin-top: 3vh;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .evetosInfoPage .imgContainer {
+    margin-top: 3vh;
+    width: 80vw;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .evetosInfoPage .imgContainer .eventFotos {
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    background-color: black;
+    background-position: center;
+  }
+  .evetosInfoPage a {
+    padding: 0.2rem 3rem;
+    background-color: rgb(253, 253, 248);
+    border-radius: 15px 0 15px 0;
+    color: rgb(141, 27, 27);
+    font-weight: 800;
+    transition: 0.3s;
+    text-transform: uppercase;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    cursor: pointer;
+  }
+  .evetosInfoPage a:hover {
+    border: 1px solid white;
+    border-radius: 0 15px 0 15px;
+    background-color: transparent;
+    color: white;
+  }
+}/*# sourceMappingURL=App.css.map */
