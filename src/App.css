@@ -80,10 +80,6 @@
   margin-left: 34%;
   font-size: 1.4rem;
   font-weight: 100;
-  background-color: rgb(255, 255, 255);
-  border-radius: 0 0 0 0;
-  color: black;
-  padding: 10px;
 }
 .main .main-left .textHidden {
   visibility: initial;
@@ -128,13 +124,14 @@
     background-size: 80%;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .main .main-left {
     width: 70%;
     height: 80%;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
   }
   .main .main-left .aspas-main {
     margin-top: 50%;
@@ -149,17 +146,13 @@
   .main .main-left h1 {
     margin-left: 2%;
     font-size: 1rem;
-    background-color: rgb(141, 27, 27);
-    border-radius: 15px 0 15px 0;
-    color: white;
-    padding: 10px;
   }
   .main .main-left .textHidden {
     visibility: hidden;
   }
   .main .main-left > div {
     margin-left: 0%;
-    margin-top: 5px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -182,13 +175,12 @@
     border: 1px solid rgb(141, 27, 27);
   }
   .main .main-right {
-    margin-left: 110px;
     width: 70%;
     height: 60%;
     background-image: url("./images/Ana.webp");
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 75%;
+    background-size: 65%;
   }
 }
 .livros {
@@ -1000,4 +992,7 @@
     background-color: transparent;
     color: white;
   }
+}
+* {
+  border: 1px solid green;
 }/*# sourceMappingURL=App.css.map */
