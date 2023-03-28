@@ -1,10 +1,11 @@
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
+import anaLogo from '../images/anaLogo.png'
 
 function Navbar() {
     return (
         <div className='header'>
-            <div className='logo'><h1>Ana de Carvalho</h1></div>
+            <div className='logo'><img src={anaLogo}></img></div>
             <div className='navbar'>
                 <ul>
                     <li><Link smooth="true" to="#">Inicio</Link></li>
