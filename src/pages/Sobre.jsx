@@ -1,5 +1,5 @@
 import React from 'react'
-import fotoAna from "../images/Ana.webp"
+import fotoAna from "../images/Ana.png"
 
 function Sobre() {
     return (
