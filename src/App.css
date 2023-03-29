@@ -203,9 +203,6 @@
   font-size: 2.5rem;
   text-align: center;
   color: rgb(141, 27, 27);
-  font-family: "Style Script", cursive;
-  text-transform: capitalize;
-  font-weight: 800;
 }
 .livros .livros-container {
   width: 75vw;
