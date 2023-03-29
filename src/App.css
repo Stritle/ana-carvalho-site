@@ -136,7 +136,7 @@
   }
   .main .main-left .aspas-main {
     margin-top: 50%;
-    margin-left: 5%;
+    margin-left: 0%;
     height: 4rem;
     width: 4rem;
     background-image: url("./images/aspas-main.webp");
@@ -145,7 +145,7 @@
     background-repeat: no-repeat;
   }
   .main .main-left h1 {
-    margin-left: 2%;
+    margin-left: 0%;
     font-size: 1rem;
     text-align: center;
   }
