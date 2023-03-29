@@ -80,6 +80,7 @@
   margin-left: 34%;
   font-size: 1.4rem;
   font-weight: 100;
+  text-align: left;
 }
 .main .main-left .textHidden {
   visibility: initial;
@@ -146,6 +147,7 @@
   .main .main-left h1 {
     margin-left: 2%;
     font-size: 1rem;
+    text-align: center;
   }
   .main .main-left .textHidden {
     visibility: hidden;
