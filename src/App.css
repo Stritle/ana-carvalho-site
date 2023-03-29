@@ -161,6 +161,7 @@
   }
   .main .main-left > div a {
     margin-left: 0px;
+    text-align: center;
     margin-top: 3px;
     background-color: rgb(141, 27, 27);
     border-radius: 15px 0 15px 0;
