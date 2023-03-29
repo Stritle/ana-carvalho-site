@@ -193,7 +193,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("./images/paper.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -275,7 +274,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("./images/paper.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -395,7 +393,6 @@
 .contacto {
   width: 100%;
   min-height: 60vh;
-  background-image: url("./images/paper.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -574,7 +571,6 @@
 .contacto {
   width: 100%;
   min-height: 60vh;
-  background-image: url("./images/paper.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
