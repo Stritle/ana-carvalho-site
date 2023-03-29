@@ -12,8 +12,8 @@ function Main() {
                 </h1>
                 <h1 className='textHidden'> Escrever é libertar os sonhos que vivem em mim.</h1>
                 <div>
-                    <Link smooth="true" to="#contacto"> CONTACTE-ME</Link>
-                    <Link smooth="true" to="#livros"> VER LIVROS</Link>
+                    <Link smooth="true" to="#contacto">CONTACTE-ME</Link>
+                    <Link smooth="true" to="#livros">VER LIVROS</Link>
                 </div>
 
 

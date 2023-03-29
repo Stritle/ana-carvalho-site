@@ -105,7 +105,6 @@
 .main .main-left > div a:hover {
   background-color: transparent;
   border-radius: 0 15px 0 15px;
-  padding: 0.3rem 4rem;
   color: rgb(141, 27, 27);
   border: 1px solid rgb(141, 27, 27);
 }
@@ -161,7 +160,7 @@
     justify-content: end;
   }
   .main .main-left > div a {
-    margin-left: 5px;
+    margin-left: 0px;
     margin-top: 3px;
     background-color: rgb(141, 27, 27);
     border-radius: 15px 0 15px 0;
@@ -173,7 +172,6 @@
   .main .main-left > div a:hover {
     background-color: transparent;
     border-radius: 0 15px 0 15px;
-    padding: 0.3rem 4rem;
     color: rgb(141, 27, 27);
     border: 1px solid rgb(141, 27, 27);
   }
