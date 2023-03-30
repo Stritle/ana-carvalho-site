@@ -8,6 +8,15 @@ function Contacto() {
     return (
         <div className='contacto' id='contacto'>
             <h1>CONTACTOS</h1>
+            <hr
+                style={{
+                    color: "rgba(141,27,27)",
+                    height: 1.2,
+                    backgroundColor: "rgba(141,27,27)",
+                    width: "8vw",
+
+                }}
+            />
             <div className="contactoContainer" >
 
                 <a href="https://www.facebook.com/anadecarvalho1402"><img src={FacebookLogo}></img></a>

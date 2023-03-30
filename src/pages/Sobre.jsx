@@ -4,6 +4,15 @@ import fotoAna from "../images/Ana.png"
 function Sobre() {
     return (
         <div className='sobre' id="sobre"><h1>BIOGRAFIA</h1>
+            <hr
+                style={{
+                    color: "rgba(141,27,27)",
+                    height: 1.2,
+                    backgroundColor: "rgba(141,27,27)",
+                    width: "8vw",
+
+                }}
+            />
             <div className='biografiaContainer'>
                 <img src={fotoAna}></img>
                 <div className='biografiaContent'>
