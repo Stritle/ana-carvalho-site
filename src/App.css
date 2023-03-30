@@ -85,14 +85,14 @@
 .main .main-left .textHidden {
   visibility: initial;
 }
-.main .main-left > div {
+.main .main-left .btn-container {
   margin-left: 30%;
   margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: end;
 }
-.main .main-left > div a {
+.main .main-left .btn-container a {
   margin-left: 30px;
   margin-top: 0px;
   background-color: rgb(141, 27, 27);
@@ -102,7 +102,7 @@
   transition: 0.7s;
   cursor: pointer;
 }
-.main .main-left > div a:hover {
+.main .main-left .btn-container a:hover {
   background-color: transparent;
   border-radius: 0 15px 0 15px;
   color: rgb(141, 27, 27);
@@ -152,14 +152,14 @@
   .main .main-left .textHidden {
     visibility: hidden;
   }
-  .main .main-left > div {
+  .main .main-left .btn-container {
     margin-left: 0%;
     margin-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: end;
   }
-  .main .main-left > div a {
+  .main .main-left .btn-container :nth-child(1) {
     margin-left: 0px;
     text-align: center;
     margin-top: 3px;
@@ -170,11 +170,29 @@
     transition: 0.7s;
     cursor: pointer;
   }
-  .main .main-left > div a:hover {
+  .main .main-left .btn-container :nth-child(1):hover {
     background-color: transparent;
     border-radius: 0 15px 0 15px;
     color: rgb(141, 27, 27);
     border: 1px solid rgb(141, 27, 27);
+  }
+  .main .main-left .btn-container :nth-child(2) {
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 3px;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(141, 27, 27);
+    color: rgb(141, 27, 27) !important;
+    border-radius: 0 15px 0 15px;
+    padding: 0.3rem 3rem;
+    color: aliceblue;
+    transition: 0.7s;
+    cursor: pointer;
+  }
+  .main .main-left .btn-container :nth-child(2):hover {
+    background-color: rgb(141, 27, 27);
+    color: white !important;
+    border-radius: 15px 0 15px 0;
   }
   .main .main-right {
     width: 70%;
@@ -920,6 +938,10 @@
   margin: 5px;
   background-color: black;
   background-position: center;
+  transition: 0.4s;
+}
+.evetosInfoPage .imgContainer .eventFotos:hover {
+  width: 290px;
 }
 .evetosInfoPage a {
   padding: 0.2rem 3rem;
@@ -969,6 +991,9 @@
     margin: 5px;
     background-color: black;
     background-position: center;
+  }
+  .evetosInfoPage .imgContainer .eventFotos:hover {
+    width: 300px;
   }
   .evetosInfoPage a {
     padding: 0.2rem 3rem;

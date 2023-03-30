@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom'
 
 function EventosInfoPage() {
     const location = useLocation()
-    const { eventTitle, eventDay, eventMonth, eventYear, eventPlace, eventFotos } = location.state
+    const { eventTitle, eventPlace, eventFotos } = location.state
 
     const listaDeFotos = eventFotos.map((fotoUrl, index) => (
         <div className='eventFotos'
@@ -20,7 +20,7 @@ function EventosInfoPage() {
 
     return (
         <div className='evetosInfoPage'>
-            <h1>{eventTitle} em {eventPlace} no dia {eventDay} de {eventMonth} de {eventYear} </h1>
+            <h1>{eventTitle} em {eventPlace}  </h1>
             <div className='imgContainer'>{listaDeFotos}
             </div>
             <Link to="/">VOLTAR</Link>

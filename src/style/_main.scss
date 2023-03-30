@@ -31,7 +31,7 @@
     .textHidden {
       visibility: initial;
     }
-    & > div {
+    .btn-container {
       margin-left: 30%;
       margin-top: 30px;
       display: flex;
@@ -99,13 +99,13 @@
       .textHidden {
         visibility: hidden;
       }
-      & > div {
+      .btn-container {
         margin-left: 0%;
         margin-top: 0px;
         display: flex;
         flex-direction: column;
         justify-content: end;
-        a {
+        & :nth-child(1) {
           margin-left: 0px;
           text-align: center;
           margin-top: 3px;
@@ -120,6 +120,24 @@
             border-radius: 0 15px 0 15px;
             color: rgb(141, 27, 27);
             border: 1px solid rgb(141, 27, 27);
+          }
+        }
+        & :nth-child(2) {
+          margin-left: 0px;
+          text-align: center;
+          margin-top: 3px;
+          background-color: rgb(247, 247, 247);
+          border: 1px solid rgb(141, 27, 27);
+          color: rgb(141, 27, 27) !important;
+          border-radius: 0 15px 0 15px;
+          padding: 0.3rem 3rem;
+          color: aliceblue;
+          transition: 0.7s;
+          cursor: pointer;
+          &:hover {
+            background-color: rgb(141, 27, 27);
+            color: white !important;
+            border-radius: 15px 0 15px 0;
           }
         }
       }

@@ -11,8 +11,8 @@ function Main() {
 
                 </h1>
                 <h1 className='textHidden'> Para ela, escrever é libertar os sonhos que vivem em si.</h1>
-                <div>
-                    <Link smooth="true" to="#contacto">CONTACTE-ME</Link>
+                <div className='btn-container'>
+                    <Link smooth="true" to="#contacto">CONTACTOS</Link>
                     <Link smooth="true" to="#livros">VER LIVROS</Link>
                 </div>
 
