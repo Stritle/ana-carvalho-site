@@ -475,7 +475,7 @@
 }
 .contacto .contactoContainer {
   width: 40%;
-  height: 70%;
+  height: 50%;
   display: flex;
   justify-content: space-between;
 }
@@ -491,6 +491,11 @@
 }
 .contacto .contactoContainer a img {
   width: 100%;
+}
+.contacto .btnContactos {
+  font-size: 2.7rem;
+  color: rgb(141, 27, 27);
+  margin-top: -10vh;
 }
 
 @media (max-width: 600px) {
@@ -535,6 +540,11 @@
   }
   .contacto .contactoContainer a img {
     width: 100%;
+  }
+  .contacto .btnContactos {
+    margin-top: -2vh;
+    font-size: 2rem;
+    color: rgb(141, 27, 27);
   }
 }
 .livroComponent {
@@ -674,7 +684,7 @@
 }
 .contacto .contactoContainer {
   width: 40%;
-  height: 70%;
+  height: 50%;
   display: flex;
   justify-content: space-between;
 }
@@ -690,6 +700,11 @@
 }
 .contacto .contactoContainer a img {
   width: 100%;
+}
+.contacto .btnContactos {
+  font-size: 2.7rem;
+  color: rgb(141, 27, 27);
+  margin-top: -10vh;
 }
 
 @media (max-width: 600px) {
@@ -734,6 +749,11 @@
   }
   .contacto .contactoContainer a img {
     width: 100%;
+  }
+  .contacto .btnContactos {
+    margin-top: -2vh;
+    font-size: 2rem;
+    color: rgb(141, 27, 27);
   }
 }
 .comentarioContent {

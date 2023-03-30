@@ -2,9 +2,6 @@ import React, { useState } from 'react'
 
 function ReadMoreBtn({ textComent, limit }) {
 
-    setTimeout(() => {
-        console.log("Delayed for 1 second.");
-    }, "10000");
 
     const [isReadMoreShown, setIsReadMoreShown] = useState(false);
 
