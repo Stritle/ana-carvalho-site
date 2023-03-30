@@ -546,8 +546,8 @@
   }
   .contacto .btnContactos {
     margin-top: -2vh;
-    font-size: 2rem;
-    color: rgb(141, 27, 27);
+    font-size: 1.5rem;
+    color: white;
   }
 }
 .livroComponent {
@@ -758,8 +758,8 @@
   }
   .contacto .btnContactos {
     margin-top: -2vh;
-    font-size: 2rem;
-    color: rgb(141, 27, 27);
+    font-size: 1.5rem;
+    color: white;
   }
 }
 .comentarioContent {
