@@ -72,7 +72,7 @@ function Contacto() {
                 EMAIL: anacarvalho.vr@gmail.com
             </div>
             <div className='btnContactos btnContactosUp' style={styleTelefone}>
-                TELEFONE:+351 963 160 423
+                TELEFONE: +351 963 160 423
             </div>
         </div>
     )
