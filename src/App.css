@@ -500,6 +500,9 @@
   border-radius: 1px;
   margin-top: -7vh;
 }
+.contacto .btnContactosUp {
+  margin-top: -8vh;
+}
 
 @media (max-width: 600px) {
   .contacto {
@@ -545,9 +548,12 @@
     width: 100%;
   }
   .contacto .btnContactos {
-    margin-top: -2vh;
-    font-size: 1.5rem;
+    margin-top: 0vh;
+    font-size: 1.3rem;
     color: white;
+  }
+  .contacto .btnContactosUp {
+    margin-top: -6vh;
   }
 }
 .livroComponent {
@@ -712,6 +718,9 @@
   border-radius: 1px;
   margin-top: -7vh;
 }
+.contacto .btnContactosUp {
+  margin-top: -8vh;
+}
 
 @media (max-width: 600px) {
   .contacto {
@@ -757,9 +766,12 @@
     width: 100%;
   }
   .contacto .btnContactos {
-    margin-top: -2vh;
-    font-size: 1.5rem;
+    margin-top: 0vh;
+    font-size: 1.3rem;
     color: white;
+  }
+  .contacto .btnContactosUp {
+    margin-top: -6vh;
   }
 }
 .comentarioContent {

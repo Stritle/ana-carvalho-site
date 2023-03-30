@@ -48,6 +48,9 @@
     border-radius: 1px;
     margin-top: -7vh;
   }
+  .btnContactosUp {
+    margin-top: -8vh;
+  }
 }
 
 @media (max-width: 600px) {
@@ -95,9 +98,12 @@
       }
     }
     .btnContactos {
-      margin-top: -2vh;
-      font-size: 1.5rem;
+      margin-top: 0vh;
+      font-size: 1.3rem;
       color: white;
+    }
+    .btnContactosUp {
+      margin-top: -6vh;
     }
   }
 }

@@ -71,7 +71,7 @@ function Contacto() {
             <div className='btnContactos' style={styleEmail}>
                 EMAIL: anacarvalho.vr@gmail.com
             </div>
-            <div className='btnContactos' style={styleTelefone}>
+            <div className='btnContactos btnContactosUp' style={styleTelefone}>
                 TELEFONE:+351 963 160 423
             </div>
         </div>
