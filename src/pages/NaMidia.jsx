@@ -5,15 +5,7 @@ function NaMidia() {
     return (
         <div className='naMidia' id='naMidia'>
             <h1>Comentários</h1>
-            <hr
-                style={{
-                    color: "#fff",
-                    height: 1.2,
-                    backgroundColor: "#fff",
-                    width: "8vw",
-
-                }}
-            />
+            <hr />
             <div className="naMidiaContainer">
                 <Comentario textComent=" A obra Ódio de Morte é fascinante onde o amor e o ódio se cruzam.
                 "

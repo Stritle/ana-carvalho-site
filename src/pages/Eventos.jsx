@@ -54,15 +54,7 @@ import OdioFoto16 from '../images/Odio/OdioFoto16.webp'
 function Eventos() {
     return (
         <div className='eventos' id='eventos'>
-            <h1>EVENTOS <hr
-                style={{
-                    color: "#fff",
-                    height: 1.2,
-                    backgroundColor: "#fff",
-                    width: "8vw",
-
-                }}
-            /></h1>
+            <h1>EVENTOS <hr /></h1>
 
             <div>
                 <div className="eventosContainer">

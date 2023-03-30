@@ -222,6 +222,14 @@
   text-align: center;
   color: rgb(141, 27, 27);
 }
+.livros > h1 hr {
+  width: 8vw;
+  height: 1.2px;
+  color: rgb(141, 27, 27);
+  background-color: rgb(141, 27, 27);
+  margin: 0 auto;
+  margin-top: 5px;
+}
 .livros .livros-container {
   width: 75vw;
   min-height: 60vh;
@@ -237,6 +245,10 @@
   .livros > h1 {
     margin-top: 5vh;
     margin-bottom: 3vh;
+  }
+  .livros > h1 hr {
+    width: 30vw;
+    height: 1.5px;
   }
   .livros .livros-container {
     justify-content: center;
@@ -257,6 +269,12 @@
   font-size: 2.2rem;
   color: white;
 }
+.naMidia hr {
+  width: 8vw;
+  height: 1.2px;
+  color: white;
+  background-color: white;
+}
 .naMidia .naMidiaContainer {
   width: 80%;
   height: 70%;
@@ -273,6 +291,10 @@
   .naMidia > h1 {
     font-size: 2.6rem;
     margin-top: 20px;
+  }
+  .naMidia hr {
+    width: 30vw;
+    height: 1.5px;
   }
   .naMidia .naMidiaContainer {
     width: 60%;
@@ -298,6 +320,12 @@
   font-size: 2.2rem;
   margin-top: 0px;
   color: rgb(141, 27, 27);
+}
+.sobre hr {
+  width: 8vw;
+  height: 1.2px;
+  color: rgb(141, 27, 27);
+  background-color: rgb(141, 27, 27);
 }
 .sobre .biografiaContainer {
   width: 50%;
@@ -337,6 +365,12 @@
     font-size: 2.5rem;
     margin-top: 30px;
   }
+  .sobre hr {
+    width: 30vw;
+    height: 1.5px;
+    color: rgb(141, 27, 27);
+    background-color: rgb(141, 27, 27);
+  }
   .sobre .biografiaContainer {
     width: 80%;
     flex-direction: column;
@@ -371,6 +405,10 @@
   margin-inline: 25vw;
 }
 .eventos hr {
+  width: 8vw;
+  height: 1.2px;
+  color: white;
+  background-color: white;
   margin: 0 auto;
   margin-top: 5px;
 }
@@ -398,10 +436,11 @@
     font-size: 2.5rem;
     color: white;
     text-align: center;
-    border-bottom: 1px solid rgb(255, 255, 255);
     margin-inline: 25vw;
   }
   .eventos hr {
+    width: 30vw;
+    height: 1.5px;
     margin: 0 auto;
     margin-top: 5px;
   }
@@ -427,6 +466,12 @@
   font-size: 2.2rem;
   color: rgb(141, 27, 27);
   margin-top: 2vh;
+}
+.contacto hr {
+  width: 8vw;
+  height: 1.2px;
+  color: rgb(141, 27, 27);
+  background-color: rgb(141, 27, 27);
 }
 .contacto .contactoContainer {
   width: 40%;
@@ -465,13 +510,18 @@
     color: rgb(141, 27, 27);
     margin-top: 0vh;
   }
+  .contacto hr {
+    width: 30vw;
+    height: 1.5px;
+    color: rgb(141, 27, 27);
+    background-color: rgb(141, 27, 27);
+  }
   .contacto .contactoContainer {
     width: 80%;
     height: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-top: 1px solid rgb(141, 27, 27);
   }
   .contacto .contactoContainer a {
     width: 42%;
@@ -554,6 +604,10 @@
   margin-inline: 25vw;
 }
 .eventos hr {
+  width: 8vw;
+  height: 1.2px;
+  color: white;
+  background-color: white;
   margin: 0 auto;
   margin-top: 5px;
 }
@@ -581,10 +635,11 @@
     font-size: 2.5rem;
     color: white;
     text-align: center;
-    border-bottom: 1px solid rgb(255, 255, 255);
     margin-inline: 25vw;
   }
   .eventos hr {
+    width: 30vw;
+    height: 1.5px;
     margin: 0 auto;
     margin-top: 5px;
   }
@@ -610,6 +665,12 @@
   font-size: 2.2rem;
   color: rgb(141, 27, 27);
   margin-top: 2vh;
+}
+.contacto hr {
+  width: 8vw;
+  height: 1.2px;
+  color: rgb(141, 27, 27);
+  background-color: rgb(141, 27, 27);
 }
 .contacto .contactoContainer {
   width: 40%;
@@ -648,13 +709,18 @@
     color: rgb(141, 27, 27);
     margin-top: 0vh;
   }
+  .contacto hr {
+    width: 30vw;
+    height: 1.5px;
+    color: rgb(141, 27, 27);
+    background-color: rgb(141, 27, 27);
+  }
   .contacto .contactoContainer {
     width: 80%;
     height: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-top: 1px solid rgb(141, 27, 27);
   }
   .contacto .contactoContainer a {
     width: 42%;

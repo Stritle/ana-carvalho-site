@@ -17,6 +17,12 @@
     margin-top: 0px;
     color: rgb(141, 27, 27);
   }
+  hr {
+    width: 8vw;
+    height: 1.2px;
+    color: rgba(141, 27, 27);
+    background-color: rgba(141, 27, 27);
+  }
   .biografiaContainer {
     width: 50%;
     height: 70%;
@@ -56,6 +62,12 @@
     h1 {
       font-size: 2.5rem;
       margin-top: 30px;
+    }
+    hr {
+      width: 30vw;
+      height: 1.5px;
+      color: rgba(141, 27, 27);
+      background-color: rgba(141, 27, 27);
     }
     .biografiaContainer {
       width: 80%;

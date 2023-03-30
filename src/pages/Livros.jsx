@@ -9,16 +9,8 @@ function Livros() {
     return (
         <div className='livros' id='livros'>
 
-            <h1>LIVROS LANÇADOS</h1>
-            <hr
-                style={{
-                    color: "rgba(141,27,27)",
-                    height: 1.2,
-                    backgroundColor: "rgba(141,27,27)",
-                    width: "8vw",
+            <h1>LIVROS LANÇADOS <hr /></h1>
 
-                }}
-            />
             <div className='livros-container'>
                 <Livro source={NicaJoaninha} title="Nicajoaninha" linkCompra="https://www.wook.pt/livro/nicajoaninha-ana-de-carvalho/19041423" />
                 <Livro source={DestinoAssimQuis} title="O Destino Assim o Quis" linkCompra="https://www.wook.pt/livro/o-destino-assim-o-quis-ana-de-carvalho/15869574" />
