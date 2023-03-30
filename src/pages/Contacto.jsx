@@ -8,24 +8,30 @@ function Contacto() {
 
     const [styleEmail, setStyleEmail] = useState({ visibility: "hidden" })
     const [styleTelefone, setStyleTelefone] = useState({ visibility: "hidden" })
-    const [visibilityEmail, setVisibilityEmail] = useState(false)
-    const [visibilityTelefone, setVisibilityTelefone] = useState(false)
+    const [visibilityEmail, setVisibilityEmail] = useState(true)
+    const [visibilityTelefone, setVisibilityTelefone] = useState(true)
 
 
 
 
     const emailTogglerHandler = () => {
         if (visibilityEmail) {
+
             setStyleEmail({ visibility: "hidden" })
             setVisibilityEmail(!visibilityEmail)
 
+
         }
         else {
+            if (visibilityTelefone) {
+                setStyleTelefone({ visibility: "hidden" })
+                setVisibilityTelefone(!visibilityTelefone)
+            }
             setStyleEmail({ visibility: "initial" })
             setVisibilityEmail(!visibilityEmail)
             setTimeout(() => {
                 setStyleEmail({ visibility: "hidden" })
-            }, "6000");
+            }, "8000");
         }
 
     }
@@ -37,11 +43,15 @@ function Contacto() {
 
         }
         else {
+            if (visibilityEmail) {
+                setStyleEmail({ visibility: "hidden" })
+                setVisibilityEmail(!visibilityEmail)
+            }
             setStyleTelefone({ visibility: "initial" })
             setVisibilityTelefone(!visibilityTelefone)
             setTimeout(() => {
                 setStyleTelefone({ visibility: "hidden" })
-            }, "6000");
+            }, "8000");
         }
 
     }
@@ -59,10 +69,10 @@ function Contacto() {
 
             </div>
             <div className='btnContactos' style={styleEmail}>
-                Email: anacarvalho.vr@gmail.com
+                EMAIL: anacarvalho.vr@gmail.com
             </div>
             <div className='btnContactos' style={styleTelefone}>
-                Telefone:+351 963 160 423
+                TELEFONE:+351 963 160 423
             </div>
         </div>
     )
