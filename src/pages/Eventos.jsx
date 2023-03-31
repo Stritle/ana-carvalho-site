@@ -1,5 +1,6 @@
 import React from 'react'
 import Evento from '../components/Evento'
+
 import SeteDiasFoto1 from '../images/SeteDias/7diasFoto1.webp'
 import SeteDiasFoto2 from '../images/SeteDias/7diasFoto2.webp'
 import SeteDiasFoto3 from '../images/SeteDias/7diasFoto3.webp'
@@ -8,6 +9,7 @@ import SeteDiasFoto5 from '../images/SeteDias/7diasFoto5.webp'
 import SeteDiasFoto6 from '../images/SeteDias/7diasFoto6.webp'
 import SeteDiasFoto7 from '../images/SeteDias/7diasFoto7.webp'
 import SeteDiasFoto8 from '../images/SeteDias/7diasFoto8.webp'
+
 import oDestinoFoto1 from '../images/oDestino/oDestinoFoto1.webp'
 import oDestinoFoto2 from '../images/oDestino/oDestinoFoto2.webp'
 import oDestinoFoto3 from '../images/oDestino/oDestinoFoto3.webp'
@@ -24,6 +26,7 @@ import oDestinoFoto13 from '../images/oDestino/oDestinoFoto13.webp'
 import oDestinoFoto14 from '../images/oDestino/oDestinoFoto14.webp'
 import oDestinoFoto15 from '../images/oDestino/oDestinoFoto15.webp'
 import oDestinoFoto16 from '../images/oDestino/oDestinoFoto16.webp'
+
 import OdioFoto1 from '../images/Odio/OdioFoto1.webp'
 import OdioFoto2 from '../images/Odio/OdioFoto2.webp'
 import OdioFoto3 from '../images/Odio/OdioFoto3.webp'
@@ -39,6 +42,8 @@ import OdioFoto13 from '../images/Odio/OdioFoto13.webp'
 import OdioFoto14 from '../images/Odio/OdioFoto14.webp'
 import OdioFoto15 from '../images/Odio/OdioFoto15.webp'
 import OdioFoto16 from '../images/Odio/OdioFoto16.webp'
+
+import NicaFoto1 from '../images/NicaJoaninha/NicaFoto1.webp'
 
 
 
@@ -72,7 +77,7 @@ function Eventos() {
 
                     <Evento eventDay="19" eventYear="2016" eventMonth="Nov"
                         eventTitle="Lançamento do Livro Nicajoaninha" eventPlace="Vila Real" eventText=""
-                        eventFotos={[SeteDiasFoto1, SeteDiasFoto2, SeteDiasFoto3, SeteDiasFoto4, SeteDiasFoto5,
+                        eventFotos={[NicaFoto1, SeteDiasFoto2, SeteDiasFoto3, SeteDiasFoto4, SeteDiasFoto5,
                             SeteDiasFoto6, SeteDiasFoto7, SeteDiasFoto8]} />
 
                     <Evento eventDay="18" eventYear="2018" eventMonth="Dez"
