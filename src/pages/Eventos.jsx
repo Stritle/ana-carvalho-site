@@ -44,6 +44,12 @@ import OdioFoto15 from '../images/Odio/OdioFoto15.webp'
 import OdioFoto16 from '../images/Odio/OdioFoto16.webp'
 
 import NicaFoto1 from '../images/NicaJoaninha/NicaFoto1.webp'
+import NicaFoto2 from '../images/NicaJoaninha/NicaFoto2.webp'
+import NicaFoto3 from '../images/NicaJoaninha/NicaFoto3.webp'
+import NicaFoto4 from '../images/NicaJoaninha/NicaFoto4.webp'
+import NicaFoto5 from '../images/NicaJoaninha/NicaFoto5.webp'
+import NicaFoto6 from '../images/NicaJoaninha/NicaFoto6.webp'
+
 
 
 
@@ -77,8 +83,7 @@ function Eventos() {
 
                     <Evento eventDay="19" eventYear="2016" eventMonth="Nov"
                         eventTitle="Lançamento do Livro Nicajoaninha" eventPlace="Vila Real" eventText=""
-                        eventFotos={[NicaFoto1, SeteDiasFoto2, SeteDiasFoto3, SeteDiasFoto4, SeteDiasFoto5,
-                            SeteDiasFoto6, SeteDiasFoto7, SeteDiasFoto8]} />
+                        eventFotos={[NicaFoto1, NicaFoto2, NicaFoto3, NicaFoto4, NicaFoto5, NicaFoto6]} />
 
                     <Evento eventDay="18" eventYear="2018" eventMonth="Dez"
                         eventTitle="Lançamento do Livro Ódio de Morte" eventPlace="Vila Real" eventText=""
