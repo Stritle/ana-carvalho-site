@@ -18,14 +18,6 @@ function App() {
   return (
     <div className="App">
 
-      <Navbar />
-      <Main />
-      <Livros />
-      <NaMidia />
-      <Sobre />
-      <Eventos />
-      <Contacto />
-      <Footer />
 
     </div>
   )

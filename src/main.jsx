@@ -5,8 +5,6 @@ import './index.css'
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
 } from "react-router-dom";
 import EventosInfoPage from './pages/EventosInfoPage';
 
